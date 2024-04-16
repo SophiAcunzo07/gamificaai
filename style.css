@@ -139,6 +139,8 @@ h2 {
     padding-bottom: 20px;
     margin-bottom: 40px;
 
+    box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
 }
 
 .card img {
@@ -147,14 +149,15 @@ h2 {
     border-radius: 4px 4px 0px 0px;
 }
 
-.card p{
+.card p {
     color: white;
     font-family: 'Montserrat';
     font-size: 16px;
     padding: 7%;
+    text-align: left;
 }
 
-.card button{
+.card button {
     background-color: var(--laranja-gamifica);
     color: white;
 
@@ -179,4 +182,44 @@ h2 {
 .container-cards {
     display: flex;
     justify-content: space-between;
+}
+
+#portifolio {
+    height: 250px;
+
+    background-image: url(img/bonecos.png);
+    background-size: 250px;
+    background-attachment: fixed;
+
+    position: relative;
+
+}
+
+.filtro {
+    width: 100%;
+    height: 100%;
+
+    background-color: #47208bc2;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#portifolio .container-grid {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#portifolio a {
+    color: white;
+
+    font-family: 'Anta';
+    font-size: 28px;
+
+    z-index: 1;
 }
