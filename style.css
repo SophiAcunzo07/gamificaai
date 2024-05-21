@@ -452,6 +452,10 @@ footer .container-grid {
     color: var(--laranja-gamifica);
 }
 
+.menu-fechado {
+    display: none;
+}
+
 @media screen and (max-width: 1300px) {
     header {
         position: relative;
