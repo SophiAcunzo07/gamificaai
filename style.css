@@ -355,7 +355,7 @@ h2 {
     justify-content: space-between;
 }
 
-.campo-descrição {
+.campo-descricao {
     width: 60%;
 
     text-align: left;
@@ -381,7 +381,7 @@ h2 {
     text-indent: 10px;
 }
 
-.campo-descrição textarea {
+.campo-descricao textarea {
     color: white;
     background-color: #351868;
 
@@ -396,18 +396,18 @@ h2 {
 }
 
 .campo label,
-.campo-descrição label {
+.campo-descricao label {
     margin-bottom: 15px;
 }
 
 .campo input,
-.campo-descrição textarea {
+.campo-descricao textarea {
     font-size: 17px;
     font-family: 'Montserrat';
 }
 
 .campo input::placeholder,
-.campo-descrição textarea::placeholder {
+.campo-descricao textarea::placeholder {
     color: #b9b9b9;
 }
 
@@ -415,7 +415,7 @@ h2 {
     outline: 2px solid var(--laranja-gamifica);
 }
 
-.campo-descrição textarea:focus {
+.campo-descricao textarea:focus {
     outline: 2px solid var(--laranja-gamifica);
 }
 
@@ -614,7 +614,7 @@ footer .container-grid {
     }
 
     .camoo,
-    .campo-descrição,
+    .campo-descricao,
     #contato form button {
         width: 75%;
     }

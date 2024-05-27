@@ -21,7 +21,7 @@
 
 
 
-<body>
+<body onload="carregarCases()">
     <div class="banner">
 
         <header>
@@ -140,7 +140,7 @@
     <section id="contato">
         <h2>Contate-nos</h2>
 
-        <form>
+        <form onsubmit="solicitarOrcamento()"
             <div class="campo">
                 <label for="campo-nome">Qual é o seu nome?</label>
                 <input id="campo-nome" placeholder="digite o seu nome..." type="text">
@@ -151,11 +151,11 @@
                 <input id="campo-email" placeholder="digite seu email..." type="email" name="" id="">
             </div>
 
-            <div class="campo-descrição">
-                <label for="campo-descri">Descreva um pouco da sua empresa, e também o problema que está procurando
+            <div class="campo-descricao">
+                <label for="">Descreva um pouco da sua empresa, e também o problema que está procurando
                     solucionar</label>
-                <textarea id="campo-descri" placeholder="descreva sua empresa e o probelma que enfrenta..." name=""
-                    id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="descreva sua empresa e o probelma que enfrenta..." 
+                    id="campo-texto" cols="30" rows="10"></textarea>
             </div>
 
             <button type="submit">enviar</button>
